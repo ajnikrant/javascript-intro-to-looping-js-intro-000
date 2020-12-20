@@ -20,10 +20,11 @@ function whileLoop(num) {
 }
 
 
-//let num= 0
+
 function doWhileLoop (num) {
+  let foo= 0
   function incrementVariable() {
-    foo = num + 1;
+    foo = foo + 1;
     return foo;
   }
 
