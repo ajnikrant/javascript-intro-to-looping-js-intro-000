@@ -30,7 +30,8 @@ function doWhileLoop (num) {
 
   do {
     console.log("I run once regardless.");
-  } while (++foo < num);
+    foo = foo + 1;
+  } while (foo < num);
 }
 
 
