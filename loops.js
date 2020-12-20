@@ -22,15 +22,15 @@ function whileLoop(num) {
 
 
 function doWhileLoop (num) {
-  let foo= 0
-  function incrementVariable() {
-    foo = foo + 1;
-    return foo;
-  }
+  let foo= 0;
+  //function incrementVariable() {
+   //foo = foo + 1;
+  //  return foo;
+//  }
 
   do {
   console.log("I run once regardless.");
-} while (incrementVariable() < num);
+} while (incrementVariable(foo++) < num);
 }
 
 
